@@ -126,9 +126,10 @@ height: 50px; width: 480px; max-width: 97% }
 	<!-- Start of Site Search 360 Scripts -->
 <script type="text/javascript">
 window.ss360Config = {
-    siteId: "www.allsongslyricsmp3.tk",
+    siteId: "www.allsongslyricsmp3.com",
     searchBox: {
-        selector: "#searchBox"
+        selector: "input[type='search']",
+        searchButton: "input[type='search']+button"
     }
 }
 var e=document.createElement("script");
@@ -137,8 +138,6 @@ e.async=!0;
 e.src="https://cdn.sitesearch360.com/v13/sitesearch360-v13.min.js";
 document.getElementsByTagName("body")[0].appendChild(e);
 </script>
-	<div class="logo">
-<a href="/"><img alt="allsongslyricsmp3" src="img/images.png" /></a></div>
 <!-- End of Site Search 360 Scripts -->
 	
 <!-- Google Tag Manager (noscript) -->
